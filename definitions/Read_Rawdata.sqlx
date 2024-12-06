@@ -1,0 +1,11 @@
+config {
+    type: "view",
+    columns: {
+        test: "A description for the test column",
+    },
+}
+
+SELECT
+  *
+FROM
+  subbucpro.dataform.rawdata
